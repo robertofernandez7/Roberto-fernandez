@@ -1,79 +1,47 @@
-# Roberto-fernandez <!DOCTYPE html>
-<html lang="en">
+# Roberto-fernandez 
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Unblock G+ & Friends</title>
+  <meta charset="UTF-8">
+  <title>Roberto Games</title>
   <style>
     body {
+      background-color: #111;
+      color: white;
       font-family: Arial, sans-serif;
       text-align: center;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 20px;
     }
     h1 {
-      color: #2c7a2b;
+      color: #00ffcc;
+      margin-top: 20px;
     }
-    .subtitle {
-      color: #555;
-      margin-bottom: 30px;
-    }
-    .game-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-    }
-    .game-card {
-      background: white;
+    .game-link {
+      display: block;
+      margin: 15px auto;
       padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-      width: 150px;
-    }
-    .game-card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 12px;
-      background: #2c7a2b;
-      color: white;
-      border-radius: 5px;
+      background: #222;
+      width: 80%;
+      max-width: 400px;
       text-decoration: none;
+      color: white;
+      border-radius: 8px;
+      border: 2px solid #00ffcc;
     }
-    .footer {
-      margin-top: 30px;
-      color: #888;
+    .game-link:hover {
+      background-color: #333;
     }
   </style>
 </head>
 <body>
-  <h1>Unblock G+ & Friends</h1>
-  <p class="subtitle">Made by Roberto and Amber</p>
-
-  <div class="game-grid">
-    <div class="game-card">
-      <h3>Flappy Bird</h3>
-      <a href="https://example.com/flappy" target="_blank">Play</a>
-    </div>
-    <div class="game-card">
-      <h3>2048</h3>
-      <a href="https://example.com/2048" target="_blank">Play</a>
-    </div>
-    <div class="game-card">
-      <h3>Cookie Clicker</h3>
-      <a href="https://example.com/cookie" target="_blank">Play</a>
-    </div>
-    <div class="game-card">
-      <h3>Peter Griffin Game</h3>
-      <a href="https://example.com/peter" target="_blank">Play</a>
-    </div>
-    <div class="game-card">
-      <h3>Alto Adventure</h3>
-      <a href="https://example.com/alto" target="_blank">Play</a>
-    </div>
-  </div>
-
-  <p class="footer">Works offline once loaded. Have fun!</p>
+  <h1>Roberto Games</h1>
+  
+  <a class="game-link" href="https://thebackrooms.io/" target="_blank">Play Backrooms</a>
+  <a class="game-link" href="https://www.tiktok.com/" target="_blank">Open TikTok App</a>
+  <a class="game-link" href="https://geometrydash.io/" target="_blank">Play Geometry Dash</a>
+  <a class="game-link" href="https://slopegame.com/" target="_blank">Play Slope</a>
+  <a class="game-link" href="https://2048game.com/" target="_blank">Play 2048</a>
+  <a class="game-link" href="https://flappybird.io/" target="_blank">Play Flappy Bird</a>
+  <a class="game-link" href="https://www.coolmathgames.com/0-run" target="_blank">Play Run 3</a>
+  <a class="game-link" href="https://alttab.games/alto-adventure/" target="_blank">Play Alto Adventure</a>
 </body>
 </html>
