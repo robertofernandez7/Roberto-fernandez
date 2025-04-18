@@ -6,74 +6,74 @@
   <title>Unblock G+ & Friends</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background: #f5f5f5;
-      color: #333;
-      margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
       text-align: center;
-    }
-    header {
-      background-color: #4caf50;
-      color: white;
+      background-color: #f4f4f4;
+      margin: 0;
       padding: 20px;
     }
     h1 {
-      margin: 0;
+      color: #2c7a2b;
     }
-    .game-list {
+    .subtitle {
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .game-grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 20px;
+      gap: 15px;
     }
-    .game {
+    .game-card {
       background: white;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin: 10px;
       padding: 15px;
-      width: 200px;
-      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      width: 150px;
     }
-    .game a {
+    .game-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #2c7a2b;
+      color: white;
+      border-radius: 5px;
       text-decoration: none;
-      color: #2196f3;
-      font-weight: bold;
     }
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      background: #eee;
+    .footer {
+      margin-top: 30px;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Unblock G+ & Friends</h1>
-    <p>Made by Roberto and Amber</p>
-  </header>
-  <div class="game-list">
-    <div class="game">
-      <p>Flappy Bird</p>
-      <a href="games/flappybird/index.html">Play</a>
+  <h1>Unblock G+ & Friends</h1>
+  <p class="subtitle">Made by Roberto and Amber</p>
+
+  <div class="game-grid">
+    <div class="game-card">
+      <h3>Flappy Bird</h3>
+      <a href="https://example.com/flappy" target="_blank">Play</a>
     </div>
-    <div class="game">
-      <p>2048</p>
-      <a href="games/2048/index.html">Play</a>
+    <div class="game-card">
+      <h3>2048</h3>
+      <a href="https://example.com/2048" target="_blank">Play</a>
     </div>
-    <div class="game">
-      <p>Cookie Clicker</p>
-      <a href="games/cookie/index.html">Play</a>
+    <div class="game-card">
+      <h3>Cookie Clicker</h3>
+      <a href="https://example.com/cookie" target="_blank">Play</a>
     </div>
-    <div class="game">
-      <p>Slope</p>
-      <a href="games/slope/index.html">Play</a>
+    <div class="game-card">
+      <h3>Peter Griffin Game</h3>
+      <a href="https://example.com/peter" target="_blank">Play</a>
     </div>
-    <!-- Add more games below -->
+    <div class="game-card">
+      <h3>Alto Adventure</h3>
+      <a href="https://example.com/alto" target="_blank">Play</a>
+    </div>
   </div>
-  <footer>
-    <p>Works offline once loaded. Have fun!</p>
-  </footer>
+
+  <p class="footer">Works offline once loaded. Have fun!</p>
 </body>
 </html>
